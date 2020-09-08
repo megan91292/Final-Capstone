@@ -152,11 +152,23 @@ Model Summary:
 <h3> Convolutional Neural Networks</h3>
 
 Using Mel-Spectrogram images:
+<img src ='/figures/cnn.png' >
+
+<img src ='/figures/cnn2.png' >
 
 
 
 
+<h2>Conclusions</h2>
+Neural Network
 
+Model is very poor at identifying Pop tracks
+Further investigations:
+* Further explore what features of these songs contribute to misclassification
+* Misclassified most as Hip-Hop,Rock and Folk
+
+Transfer Learning
+Model completely overshoots on Electronic and Rock
 
 
 <h2>Future Work</h2>
@@ -166,5 +178,13 @@ Using Mel-Spectrogram images:
     </li>
 <li> More Data
     <ul> More audio files for each genre for better results</ul>
+</li>
+<li> One vs All
+    <ul> Use a one vs all approach to train.
+i.e. Pop or not Pop</ul>
+</li>
+<li> Feature Combinations
+    <ul> Explore different combinations of features for optimum results
+</ul>
 </li>
 
